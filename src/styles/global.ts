@@ -8,11 +8,12 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background: ${(props) => props.theme['off-white']};
+        background: ${props => props.theme['off-white']};
         -webkit-font-smoothing: antialiased;
 
         max-width: 120rem;
         margin: 0 auto;
+
     }
 
     body, input, textarea, button {

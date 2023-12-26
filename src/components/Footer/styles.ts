@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const FooterWrapper = styled.footer`
     padding: 2.5rem 10rem;
 
-    background: ${props => props.theme['brown-200']};
+    background: ${props => props.theme['brown-300']};
     color: ${props => props.theme['off-white']};
 
     box-shadow: 0px 1px 5px #888;
@@ -27,7 +27,7 @@ export const FooterWrapper = styled.footer`
                 color: ${props => props.theme['off-white']};
 
                 &:hover {
-                color: ${props => props.theme['brown-300']};
+                color: ${props => props.theme['green-500']};
 
                 }
             }
@@ -73,7 +73,7 @@ export const FooterWrapper = styled.footer`
                 padding: 0.5rem;
 
                 &:hover {
-                    background: ${props => props.theme['brown-300']};
+                    background: ${props => props.theme['green-500']};
                 }
             }
 
