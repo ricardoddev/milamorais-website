@@ -17,6 +17,7 @@ export function Navbar() {
 
 	return(
 		<NavBarWrapper className={colorBg ? 'headerTransparent headerSolid' : 'headerTransparent'}>
+			<NavLink to={'/'}><img src="../../../vite.svg" alt="" /></NavLink>
 			<ul>
 				<li><NavLink to={'/catalogo'}>Catálogo</NavLink></li>
 				<li><NavLink to={'/sobre-nos'}>Sobre nós</NavLink></li>

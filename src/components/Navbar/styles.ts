@@ -5,7 +5,7 @@ export const NavBarWrapper = styled.header`
 
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: space-between;
 
     position: fixed;
     width: 100%;
