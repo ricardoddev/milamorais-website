@@ -18,8 +18,6 @@ export const CatalogWrapper = styled.main`
 
         text-align: center;
 
-        background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%), url('src/assets/raizes/bg-raizes.jpg');
-        background-size: contain;
         
     }
 `;

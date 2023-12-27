@@ -11,6 +11,7 @@ import Raizes8 from '../../assets/raizes/raízes8.png';
 import Terracota from '../../assets/raizes/img_model_terracota.jpg';
 import PuroLinho from '../../assets/raizes/img_modelo_purolinho.jpg';
 import Natural from '../../assets/raizes/img_modelo_natural.jpg';
+import BgRaizes from '../../assets/raizes/bg-raizes.jpg';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { NavLink } from 'react-router-dom';
@@ -80,10 +81,10 @@ export function Catalog() {
 
 	return(
 		<CatalogWrapper>
-			<h1>RAÍZES</h1>
+			<h1 style={{background: `url(${BgRaizes})`, backgroundSize: 'contain'}}>RAÍZES</h1>
 
 			<ImageCarousel>
-				<Carousel showArrows={false} showThumbs={false} showStatus={false} autoPlay={true} infiniteLoop={true} interval={3000}>
+				<Carousel showArrows={false} showThumbs={false} showStatus={false} autoPlay={true} infiniteLoop={true} interval={2000}>
 					{returnImages()}
 				</Carousel>
 			</ImageCarousel>

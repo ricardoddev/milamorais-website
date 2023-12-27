@@ -9,7 +9,7 @@ export const HomeWrapper = styled.main`
     img#main-photo-mila {
         position: absolute; 
         bottom: 0;
-        height: 40vh;
+        height: 40%;
 
         transform: translateX(-100%);
         animation: renderPhotos 1.25s forwards;  
@@ -19,7 +19,7 @@ export const HomeWrapper = styled.main`
         position: absolute; 
         right: 43%; 
         top: 40%;
-        height: 40vh;
+        height: 40%;
         z-index: 1000;
         opacity: 0.8;
 
@@ -34,7 +34,7 @@ export const HomeWrapper = styled.main`
     img#big-photo-collection {
         position: absolute;
         right: 10%;
-        height: 100vh;
+        height: 100%;
 
         transform: translateX(-100%);
         animation: renderPhotos 1.25s forwards;    
@@ -54,14 +54,17 @@ export const HomeWrapper = styled.main`
     }
 `;
 
-export const CollectionInfoAndAcess = styled.div`
+export const CollectionInfoAndAccess = styled.div`
+    position: absolute;
+    left:0;
+    bottom: 50%;
     display: flex;
     align-items: center;    
     flex-direction: column;
-    gap: 1rem;
+    gap: 2%;
 
     svg {
-        margin-top: 3rem;
+        margin-top: 30%;
 
         border: 2px dashed;
         border-radius: 50%;
